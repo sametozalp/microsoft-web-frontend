@@ -1,0 +1,282 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    font-family: "Segoe UI",SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 0.9rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #000;
+}
+
+.banner {
+    padding: 10px 160px;
+    width: 100%;
+}
+.logo {
+    float: left;
+    width: 110px; 
+    margin-top: 5px;
+}
+.navbar {
+    display: inline-block;
+    margin-left: 10px;
+    vertical-align: -webkit-baseline-middle;
+    margin-top: 8px;
+    
+}
+.navbar ul {
+    display: inline-block;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.navbar ul li {
+    float: left;
+    padding: 0px 10px;
+}
+.navbar ul li a:hover {
+    text-decoration:underline;
+    
+}
+.navbar ul li a {
+    text-decoration: none;
+    color: #000;
+}
+.clear {
+    clear: both;
+    display: block;
+}
+.banner-sag {
+    padding: 5px 15px;
+    float: right;
+}
+.kutu {
+    height: 20px;
+    margin-left: 5px;
+    cursor: pointer;
+}
+.kutu:hover {
+    text-decoration: underline;
+}
+.pano {
+    width: 100%;
+    height: 600px;
+    background: url('pano.png');
+    position: relative;
+}
+.pano h1 {
+    margin:0;
+    font-weight: 500;
+    font-size: 38px;
+}
+.yazi {
+    display: inline-block;
+    color:#fff;
+    width: 450px;
+    font-size: 15px;
+    position: absolute;
+    top: 50%;
+    transform: translate(40%,-50%);
+}
+.tarz1 {
+    padding: 12px 20px;
+    font-weight: bold;
+    font-size: 14px;
+    background-color: #0067b8;
+    color: #fff;
+    border: 1px solid #0067b8;
+    cursor: pointer;
+    transition: background-color .3s;
+}
+.tarz1:hover {
+    background-color: #005799;
+    border: 1px solid #005799;
+}
+.tuslar {
+    font-size: 35px;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.tuslar i {
+    padding: 10px;
+}
+.tuslar ul {
+    list-style-type:circle;
+    margin: 0;
+    display: inline-block;
+    margin-left: 30px;
+    height: 40px;
+}
+.tuslar ul li {
+    float: left;
+    width: 30px;
+    height: 30px;
+}
+.list {
+    display: inline-block;
+    /* padding: 0 0 0 65px; */
+}
+.oneri {
+    padding: 30px 15px;
+    width: 100%;
+    text-align: center;
+}
+.oneri-kutu {
+    width: 200px;
+    padding: 20px;
+    text-align: center;
+    display: inline-block;
+    font-weight: 600;
+}
+.oneri-kutu a {
+    color: #0067b8;
+}
+.kesfet {
+    width: 100%;
+    padding: 0px 30px;
+    text-align: center;
+}
+.icerik {
+    width: 400px;
+    padding: 15px;
+    display: inline-block;
+    vertical-align: top;
+    text-align: left;
+}
+.bos {
+    height: 100px;
+}
+.icerik a {
+    text-decoration: none;
+    color: #0067b8;
+    font-weight: 600;
+    font-size: 16px;
+    transition: font-size .6s;
+}
+.icerik a:hover {
+    text-decoration: underline;
+    font-size: 16.5px;
+}
+.pano2 {
+    width: 100%;
+    height: 600px;
+    padding: 0px 160px;
+    text-align: -webkit-center;
+    position: relative;
+}
+.pano2 h1 {
+    font-weight: 500;
+    font-size: 35px;
+}
+#ozellestir {
+    color: #000;
+    width: 350px;
+    transform: translate(30%,-60%);
+}
+.resim {
+    width: 100%;
+    height: 100%;
+    background: url('pano2.png');
+    text-align: left;
+}
+.bosluk {
+    height: 70px;
+    display: block;
+}
+.is {
+    padding: 0 160px;
+}
+.isicin {
+    margin: 0;
+}
+.social-media {
+    font-size: 16px;
+    padding: 0 8%;
+    margin-top: 35px;
+}
+.social-media p {
+    display: inline-block;
+}
+.social-media i {
+    font-size: 25px;
+    margin-left: 25px;
+}
+.social-media a {
+    color: #000;
+}
+footer {
+    padding: 20px 70px;
+    background-color: #f2f2f2;
+    text-align: center;
+}
+.menu {
+    padding: 10px;
+    width: 16%;
+    color: #8a8a8a;
+    display: inline-block;
+    vertical-align: top;
+}
+.menu h4 {
+    margin: 0;
+}
+.menu ul {
+    list-style: none;
+    margin:0;
+    padding: 0;
+}
+.menu ul li {
+    padding: 7px 0px;
+}
+.menu ul li a {
+    text-decoration: none;
+    color: #8a8a8a;
+    font-size: 11px;
+}
+.menu ul li a:hover {
+    text-decoration: underline;
+}
+.alt {
+    width: 100%;
+    padding: 0 60px;
+    text-align: left;
+}
+.yerel {
+    display: inline-block;
+}
+.yerel a {
+    text-decoration: none;
+    color: #8a8a8a;
+}
+.yerel a:hover {
+    text-decoration: underline;
+}
+.alt-nav {
+    float: right;
+    vertical-align: top;
+}
+.alt-nav ul {
+    margin: 0;
+    padding: 0;
+}
+.alt-nav ul li {
+    display: inline-block;
+    padding: 0 15px;
+    font-size: 12px;
+    color: #8a8a8a;
+}
+.alt-nav ul li a {
+    text-decoration: none;
+    color: #8a8a8a;
+    font-size: 12px;
+}
+.alt-nav ul li a:hover {
+    text-decoration: underline;
+} 
+.icerik a::after {
+    content: ">";
+    font-size: 20px;
+    margin-left: 10px;
+}
