@@ -280,3 +280,34 @@ footer {
     font-size: 20px;
     margin-left: 10px;
 }
+@media (max-width:1000px) {
+    .navbar {
+        width: 400px;
+        margin-left: -35px;
+    }
+    .logo {
+        width: 300px;
+    }
+    .banner-sag{
+        position: relative;
+        right: 0;
+    }
+    .pano {
+        width: 650px;
+    }
+    .yazi {
+        margin-left: -70px;
+    }
+    .tuslar {
+        margin-left: 160px;
+    }
+    .oneri {
+        margin-left: 100px;
+    }
+    .pano2 {
+        width: 700px;
+    }
+    footer {
+        width: 600px;
+    }
+}
